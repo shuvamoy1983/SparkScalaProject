@@ -7,6 +7,7 @@ import org.json4s.jackson.JsonMethods.parse
   * Created by shuvamoymondal on 4/30/18.
   */
 
+// ./spark-submit --class JsonParse --jars /Users/shuvamoymondal/Downloads/json4s-native_2.10-3.2.4.jar /Users/shuvamoymondal/goworkspace/pkg/github.com/shuva/main/ScalaJsonParse/target/ScalaJsonParse-1.0-SNAPSHOT.jar
 case class Address(street: String, city: String)
 case class PersonWithAddresses(name: String, addresses: Map[String, Address])
 
