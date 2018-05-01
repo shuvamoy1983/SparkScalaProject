@@ -3,6 +3,8 @@ package ScalaJsonParse
 import org.json4s.DefaultFormats
 import org.json4s.jackson.JsonMethods.parse
 
+import org.apache.spark.SparkConf
+import org.apache.spark
 /**
   * Created by shuvamoymondal on 4/30/18.
   */

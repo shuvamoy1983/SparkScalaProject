@@ -67,6 +67,11 @@
           <version>2.0-M3</version>
       </dependency>
 
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-reflect</artifactId>
+      <version>${scala.version}</version>
+    </dependency>
 
       <dependency>
       <groupId>org.specs</groupId>
@@ -92,7 +97,7 @@
           </execution>
         </executions>
         <configuration>
-          <scalaVersion>2.11.8</scalaVersion>
+          <scalaVersion>2.11</scalaVersion>
           <args>
             <arg>-target:jvm-1.5</arg>
           </args>
@@ -123,7 +128,7 @@
         <groupId>org.scala-tools</groupId>
         <artifactId>maven-scala-plugin</artifactId>
         <configuration>
-          <scalaVersion>2.11.8</scalaVersion>
+          <scalaVersion>2.11</scalaVersion>
         </configuration>
       </plugin>
     </plugins>
